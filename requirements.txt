@@ -1,0 +1,7 @@
+fastmcp>=2.11      # MCP server framework (https://gofastmcp.com)
+pyjwt>=2.9         # JWT issuance and verification (RFC 7519)
+cryptography>=42   # RS256 signing backend required by pyjwt
+python-dotenv>=1.0 # loads .env into the environment
+httpx>=0.27        # Enable Banking API calls
+requests>=2.32     # onboarding flow and exchange-rate lookups
+pydantic>=2.0      # MCP tool input/output schemas

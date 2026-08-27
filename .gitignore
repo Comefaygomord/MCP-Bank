@@ -1,0 +1,17 @@
+# Secrets
+.env
+*.pem
+
+# Generated banking artefacts (session tokens, API dumps)
+mcp_bank/banking/data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Editors
+.vscode/
+.idea/
